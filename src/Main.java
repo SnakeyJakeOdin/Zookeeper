@@ -1,7 +1,11 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-        // camel test
-        System.out.println(camel());
+        // Menu setup
+        Scanner scanner = new Scanner(System.in);
+        String userSelection = scanner.nextLine();
+        System.out.println(userSelection);
     }
     public static String camel() {
         return """
