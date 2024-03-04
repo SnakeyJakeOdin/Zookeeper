@@ -2,6 +2,9 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
+        // Animal array
+        String[] animals = {camel()};
+
         // Menu setup
         Scanner scanner = new Scanner(System.in);
         String userSelection;
@@ -15,6 +18,8 @@ public class Main {
             if (userSelection.equals("exit")) {
                 break;
             }
+            // Select animal
+            System.out.println(animals[Integer.parseInt(userSelection)]);
         }
         System.out.println("Have a good day!");
     }
