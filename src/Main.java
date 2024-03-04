@@ -21,6 +21,7 @@ public class Main {
             System.out.println(animals[Integer.parseInt(userSelection)]);
         }
         System.out.println("Have a good day!");
+        scanner.close();
     }
     public static String camel() {
         return """
