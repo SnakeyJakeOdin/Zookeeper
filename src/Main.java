@@ -4,8 +4,19 @@ public class Main {
     public static void main(String[] args) {
         // Menu setup
         Scanner scanner = new Scanner(System.in);
-        String userSelection = scanner.nextLine();
-        System.out.println(userSelection);
+        String userSelection;
+
+        // Cycle until "exit" is typed
+        while (true) {
+            System.out.print("Please enter the number of the habitat you would like to view: ");
+            userSelection = scanner.nextLine();
+
+            // Exit program
+            if (userSelection.equals("exit")) {
+                break;
+            }
+        }
+        System.out.println("Have a good day!");
     }
     public static String camel() {
         return """
