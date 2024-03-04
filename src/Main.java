@@ -2,10 +2,8 @@ import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args) {
-        // Animal array
         String[] animals = {camel()};
 
-        // Menu setup
         Scanner scanner = new Scanner(System.in);
         String userSelection;
 
